@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Get test">
+        <classes>
+            <class name="test.java.TC01_GetDemo"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="post test">
+        <classes>
+            <class name="java.TC02_PostDemo"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="put test">
+        <classes>
+            <class name="java.TC03_PutDemo"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="delete Test">
+        <classes>
+            <class name="java.TC04_DeleteDemo"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite>
